@@ -5,7 +5,6 @@ if(!isset($_GET['url'])){
 }else{
 	$url = $_GET['url'];
 }
-
 	
 	$page = explode('/',filter_var(rtrim($url, '/'),FILTER_SANITIZE_URL));
 	//print_r($url);

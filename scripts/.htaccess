@@ -1,0 +1,3 @@
+# This means that this folder, when visited by the user
+# Will return a 403 header (No Permission)
+Options -Indexes
